@@ -28,7 +28,7 @@ body{
 #leftDice>p, #rightDice>p{
     font-size: large;
     font-weight: 600;
-    color: blueviolet;
+    color: rgb(43, 165, 226);
     margin-bottom: 12px;
 }
 #rollDice{
