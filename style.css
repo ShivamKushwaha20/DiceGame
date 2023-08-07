@@ -1,0 +1,43 @@
+*{
+    padding : 0;
+    margin: 0;
+
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family:'Handjet', cursive; ;
+    background-color: blueviolet;
+}
+
+.main{
+    text-align: center;
+}
+.above{
+    margin: 20px 0px;
+    font-size: 50px;
+    color: rgb(16, 156, 243)
+}
+.below{
+    display: flex;
+    justify-content: center;
+}
+#leftDice, #rightDice{
+    margin: 12px 30px;
+}
+#leftDice>p, #rightDice>p{
+    font-size: large;
+    font-weight: 600;
+    color: blueviolet;
+    margin-bottom: 12px;
+}
+#rollDice{
+    padding: 12px;
+    background-color: aquamarine;
+    border-radius: 12px;
+    font-family: fantasy;
+}
+#rollDice:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
